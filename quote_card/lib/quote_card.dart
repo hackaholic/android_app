@@ -12,7 +12,7 @@ class QuoteCard extends StatelessWidget {
       margin: const EdgeInsets.fromLTRB(10, 10, 10, 10),
       color: Colors.blueGrey,
       child: Padding(
-        padding: const EdgeInsets.all(8),
+        padding: const EdgeInsets.all(15),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
@@ -24,7 +24,7 @@ class QuoteCard extends StatelessWidget {
                 //backgroundColor: Colors.grey,
               ),
             ),
-            const SizedBox(height: 6.0),
+            //const SizedBox(height: 6.0),
             Text(
               quote.author,
               style: const TextStyle(

@@ -23,6 +23,12 @@
       <excludeFolder url="file://$MODULE_DIR$/quote_card/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/quote_card/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/quote_card/build" />
+      <excludeFolder url="file://$MODULE_DIR$/test123/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/test123/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/test123/build" />
+      <excludeFolder url="file://$MODULE_DIR$/my1stapp/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/my1stapp/build" />
+      <excludeFolder url="file://$MODULE_DIR$/my1stapp/.dart_tool" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 33, extension level 5 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

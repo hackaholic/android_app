@@ -50,8 +50,8 @@ class _HackoIdState extends State<HackoId> {
             //   color: Colors.orange[800],
             // ),
             Container(
-              height: 0.1, // Adjust the height to make the line thinner or thicker
-              color: Colors.grey[800],
+              height: 0.5, // Adjust the height to make the line thinner or thicker
+              color: Colors.white,
               margin: const EdgeInsets.symmetric(vertical: 20.0),
             ),
             const Text(
