@@ -40,11 +40,9 @@ class DisplayList extends StatefulWidget {
 }
 
 class _DisplayListState extends State<DisplayList> {
-  bool _counter = false;
-
-  void _toggleState() {
-    setState(() => _counter = !_counter);
-  }
+  void _hideMaterialBanner() =>
+      // hides the Material Banner
+      ScaffoldMessenger.of(context).hideCurrentMaterialBanner();
 
   @override
   Widget build(BuildContext context) {
@@ -65,12 +63,12 @@ class _DisplayListState extends State<DisplayList> {
               leading: const Icon(Icons.cake),
               content: const Text('Hello, I am Material Banner'),
               actions: [
-                const TextButton(
-                  onPressed: null,
-                  child: Text('Press Me'),
+                TextButton(
+                  onPressed: () => print('I am pressed'),
+                  child: const Text('Press Me'),
                 ),
                 TextButton(
-                  onPressed: _toggleState,
+                  onPressed: _hideMaterialBanner,
                   child: const Text('Dismiss Me'),
                 ),
               ],
