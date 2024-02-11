@@ -29,10 +29,17 @@
       <excludeFolder url="file://$MODULE_DIR$/my1stapp/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/my1stapp/build" />
       <excludeFolder url="file://$MODULE_DIR$/my1stapp/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/weather_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/weather_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/weather_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/weather_app_youtube/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/weather_app_youtube/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/weather_app_youtube/build" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 33, extension level 5 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />
     <orderEntry type="library" name="Dart Packages" level="project" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
 </module>
